@@ -20,6 +20,8 @@ public class TestNG {
 	  System.out.println("Password Entered");
 	driver.findElement(By.name("Login")).click();
 	System.out.println("Loggedin");
+	driver.findElement(By.name("Logout")).click();
+	System.out.println("Logout");
 	
   }
   @BeforeMethod
