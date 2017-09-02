@@ -1,0 +1,7 @@
+<suite name="Test - Suite">
+	<test name="Login">
+		<classes>
+			<class name="automationFramework.TestNG"/>
+		</classes>
+	</test>
+</suite>
